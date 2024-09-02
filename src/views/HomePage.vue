@@ -1,9 +1,12 @@
 <script setup lang="ts">
+
+import Banner from "../components/Banner.vue";
 </script>
 
 <template>
-  <router-view/>
+    <banner/>
 </template>
 
 <style scoped>
+
 </style>
