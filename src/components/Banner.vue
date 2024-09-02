@@ -4,19 +4,21 @@
 
 <template>
   <div id="banner">
-    <div id="title_container">
-      <div id="banner-title">
-        <div id="site_title">
-          <router-link to="/">TingYan & Rahkah</router-link>
-        </div>
+    <div class="container">
+      <div id="title_container">
+        <div id="banner-title">
+          <div id="site_title">
+            <router-link to="/">TingYan & Rahkah</router-link>
+          </div>
 
-        <div id="blog_index">
-          <router-link to="/">Blog</router-link>
-          <router-link to="/">Index</router-link>
-        </div>
+          <div id="blog_index">
+            <router-link to="/">Blog</router-link>
+            <router-link to="/">Index</router-link>
+          </div>
 
-        <div id="social">
+          <div id="social">
 
+          </div>
         </div>
       </div>
     </div>
@@ -24,6 +26,10 @@
 </template>
 
 <style scoped>
+.container {
+  padding:0 25% 0 25%  ;
+}
+
 #banner {
   width: 100%;
   background: black;
